@@ -1,4 +1,4 @@
-Funcionalidades de la aplicacion
+#Funcionalidades de la aplicacion
 
 1. Esta aplicación funcionará en dispositivos Android con sistema operativo versión 9 o superior.
 2. Cualquier información enviada por el usuario será almacenada de forma local en el dispositivo.
