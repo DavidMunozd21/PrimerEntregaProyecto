@@ -1,7 +1,7 @@
-IdeaProyecto
+#IdeaProyecto
 La aplicación "Horario de Tareas Rápida" es una herramienta simple para ayudar a los usuarios a gestionar sus tareas diarias de manera eficiente, como si fuera un horario de clase. La idea principal es proporcionar una forma fácil y rápida de hacer seguimiento de las tareas que necesitan realizar sin ninguna complicación.
 
-Características Clave:
+#Características Clave:
 
 La aplicación debe ser sencilla y fácil de usar. Los usuarios deben poder empezar a utilizarla sin necesidad de tutoriales.
 
@@ -17,7 +17,9 @@ Los usuarios pueden optar por recibir una notificación diaria a una hora espec�
 
 Aunque la simplicidad es clave, podrías permitir a los usuarios cambiar el color de fondo o elegir entre algunas opciones de temas.
 
-Aplicaciones similares: *Lista de tareas
+#Aplicaciones similares:
+
+*Lista de tareas
 
 *Agenda:Schedule Planner
 
