@@ -1,4 +1,4 @@
-IdeaProyecto
+# IdeaProyecto
 
 La aplicación "Horario de Tareas Rápida" es una herramienta simple para ayudar a los usuarios a gestionar sus tareas diarias de manera eficiente, como si fuera un horario de clase. La idea principal es proporcionar una forma fácil y rápida de hacer seguimiento de las tareas que necesitan realizar sin ninguna complicación.
 
