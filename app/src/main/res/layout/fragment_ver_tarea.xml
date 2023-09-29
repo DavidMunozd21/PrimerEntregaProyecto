@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerTarea">
+
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:layout_alignParentBotton="true"
+        android:layout_alignParentend="true"
+        app:backgroundTint="#FF0000"
+        app:layout_anchor="id/appbar"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            android:background="#FF0000"
+            android:text="TITULO"
+            android:textAlignment="textEnd"
+            android:textSize="48sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="#FFFFFF"
+            android:text="FECHA"
+            android:textSize="34sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="490dp"
+            android:layout_margin="15dp"
+            android:background="#FFFFFF"
+            android:text="DescripcionTarea"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+
+</FrameLayout>
