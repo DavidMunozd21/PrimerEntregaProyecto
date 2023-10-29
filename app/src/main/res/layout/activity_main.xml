@@ -20,22 +20,20 @@
         android:textSize="34sp"
         android:layout_margin="15dp"/>
 
-    <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
 
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatButton"
+            android:id="@+id/floatingActionButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
             android:layout_margin="16dp"
-            android:src="@drawable/baseline_add_24"
-            android:layout_alignParentBotton="true"
-            android:layout_alignParentend="true"
             app:backgroundTint="#FF0000"
-            app:layout_anchor="id/appbar" />
-
+            app:srcCompat="@drawable/baseline_add_24"
+            android:contentDescription="@string/_3"/>
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
@@ -50,9 +48,9 @@
         <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="80dp"
-            android:choiceMode="multipleChoice"></ListView>
+            ></ListView>
 
 
     </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".VerTarea">
+    tools:context=".VerTareaActivity">
 
 
     <View
@@ -14,16 +14,14 @@
         android:background="#000000" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatButton"
+        android:id="@+id/floatButtonVer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/baseline_arrow_back_24"
-        android:layout_alignParentBotton="true"
-        android:layout_alignParentend="true"
         app:backgroundTint="#FF0000"
-        app:layout_anchor="id/appbar"
         android:layout_marginTop="30dp"
-        android:layout_marginLeft="20dp"/>
+        android:layout_marginStart="20dp"
+        android:contentDescription="@string/_2"/>
 
 
     <LinearLayout
@@ -37,7 +35,7 @@
             android:layout_height="100dp"
             android:layout_margin="15dp"
             android:background="#FF0000"
-            android:text="TITULO"
+            android:text="@string/titulo"
             android:textAlignment="textEnd"
             android:textSize="48sp" />
 
@@ -46,14 +44,14 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:background="#FFFFFF"
-            android:text="FECHA"
+            android:text="@string/fecha"
             android:textSize="34sp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="490dp"
             android:layout_margin="15dp"
             android:background="#FFFFFF"
-            android:text="DescripcionTarea"
+            android:text="@string/descripciontarea"
             android:textSize="34sp" />
 
     </LinearLayout>

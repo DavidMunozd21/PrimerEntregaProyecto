@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".VerTarea">
+    tools:context=".NuevaTareaActivity">
 
 
     <View
@@ -14,16 +14,15 @@
         android:background="#000000" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatButton"
+        android:id="@+id/floatButtonNew"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/baseline_arrow_back_24"
-        android:layout_alignParentBotton="true"
-        android:layout_alignParentend="true"
         app:backgroundTint="#FF0000"
-        app:layout_anchor="id/appbar"
         android:layout_marginTop="30dp"
-        android:layout_marginLeft="20dp"/>
+        android:layout_marginStart="20dp"
+        android:contentDescription="@string/_1"
+        android:layout_gravity="start"/>
 
 
     <LinearLayout
@@ -37,7 +36,7 @@
             android:layout_height="100dp"
             android:layout_margin="15dp"
             android:background="#FF0000"
-            android:text="TITULO"
+            android:text="@string/titulo1"
             android:textAlignment="textEnd"
             android:textSize="48sp" />
 
@@ -46,23 +45,23 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:background="#FFFFFF"
-            android:text="FECHA"
+            android:text="@string/fecha1"
             android:textSize="34sp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="400dp"
             android:layout_margin="15dp"
             android:background="#FFFFFF"
-            android:text="DescripcionTarea"
+            android:text="@string/descripciontarea1"
             android:textSize="34sp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonAceptar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="150dp"
-            android:backgroundTint="#FF0000"
-            android:text="Aceptar" />
+            android:layout_marginStart="150dp"
+            android:text="@string/aceptar1"
+            android:textColor="#FFFFFF" />
 
 
     </LinearLayout>
