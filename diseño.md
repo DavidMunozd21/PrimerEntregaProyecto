@@ -14,27 +14,24 @@ Cuando el usuario ingrese a la app esta sera la primera pantalla que vera, la cu
 
 Se nos desplegara una ventana flotante la cual nos permite ver el nombre de la tarea, la fecha y la descripcion, tambien podremor editar o eliminar.
 
-![image](https://github.com/DavidMunozd21/PrimerEntregaProyecto/assets/124848367/05ae2b8a-3b28-402a-981d-41c1696fcedd)
+![image](https://github.com/DavidMunozd21/PrimerEntregaProyecto/assets/124848367/460ed579-f83a-4559-9aad-ea09dd747476)
+
 
 3. Nueva tarea
 
 Esto es el boton flotante de la pantalla principal, el cual nos llevara a otra pantalla que nos mostrara un calendario para que nosotros programemos nuestras tareas.
 
-![image](https://github.com/DavidMunozd21/PrimerEntregaProyecto/assets/124848367/cadae628-2f38-4c90-a7e8-34aeb07b126d)
+![image](https://github.com/DavidMunozd21/PrimerEntregaProyecto/assets/124848367/35c11e39-af85-44e2-a939-5c1af0813487)
+
 
 4. Llenar datos de tarea
 
 Esta sera otra ventana flotante que nos saldra si le damos en "OK" de la ventana "Ver tarea", aqui podremos poner lo que es el titulo y la descripcion de la tarea.
 
-![image](https://github.com/DavidMunozd21/PrimerEntregaProyecto/assets/124848367/355482df-eea4-4ac2-98dc-cd26cd21e7cf)
+![image](https://github.com/DavidMunozd21/PrimerEntregaProyecto/assets/124848367/0571a524-8d65-4dee-b518-6a49a1470e0d)
 
-5. Cambio colores de app
 
-Esta pantalla aparecera cuando demos click en el boton "Cambiar color" que aparece en la pantalla principal, basicamente podremos seleccionar el color que queramos y le damos en "APLICAR".
-
-![image](https://github.com/DavidMunozd21/PrimerEntregaProyecto/assets/124848367/0e40cec6-e69c-484e-b50c-9c16441ae94d)
-
-6. Notificaciones
+5. Notificaciones
 
 Basicamente vemos una pantalla principal de un telefono y vemos una notificacion de nuestra app.
 
